@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "prompt": "/pages/set/child/prompt",
+    "list-cell": "/components/mix-list-cell"
+  }
+}

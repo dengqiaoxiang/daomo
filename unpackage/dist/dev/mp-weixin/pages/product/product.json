@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse",
+    "number-box": "/components/wlp-number",
+    "coupon": "/pages/product/child/coupon",
+    "groupon-box": "/pages/product/child/grouponBox",
+    "product-share-image": "/addons/xshopshare/components/share"
+  }
+}

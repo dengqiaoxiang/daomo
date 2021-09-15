@@ -1,0 +1,1 @@
+<uni-popup class="after-sale-box border-radius t-popup vue-ref" vue-id="19f7234c-1" type="center" data-ref="$x_popup" bind:__l="__l" vue-slots="{{['default']}}"><view class="container"><slot></slot></view></uni-popup>

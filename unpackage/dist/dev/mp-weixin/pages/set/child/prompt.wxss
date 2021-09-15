@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.container.data-v-35c22686 {
+  width: calc(80vw - 60rpx);
+}
+.content.data-v-35c22686 {
+  padding: 0rpx 30rpx;
+  border-radius: 10rpx;
+}
+.content .msgbox-content.data-v-35c22686 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 20rpx 0;
+  color: #404245;
+  font-size: 14px;
+  line-height: 20px;
+}
+.content .msgbox-input.data-v-35c22686 {
+  margin: 30rpx 0;
+}
+.content .msgbox-input .input.data-v-35c22686 {
+  height: 70rpx;
+  line-height: 70rpx;
+  border: 1px solid #dedede;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  width: 100%;
+}
+.btns.data-v-35c22686 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.btns .btn.data-v-35c22686 {
+  line-height: 80rpx;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  background-color: #fff !important;
+  border: none !important;
+  margin: 0;
+  border: 0;
+}
+.btns .btn.data-v-35c22686::after {
+  border: none;
+  border-radius: none;
+}
+.btns .btn-cancel.data-v-35c22686 {
+  font-size: 16px;
+  color: #404245;
+}
+.btns .btn-submit.data-v-35c22686 {
+  font-size: 16px;
+  color: #fa800a;
+}
+.t-popup .uni-popup.data-v-35c22686 {
+  color: red;
+}
+.t-popup .uni-popup__wrapper-box.data-v-35c22686 {
+  border-radius: 20rpx;
+}
+.t-popup.data-v-35c22686 .uni-popup__wrapper-box {
+  border-radius: 20rpx;
+}
+

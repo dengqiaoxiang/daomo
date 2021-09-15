@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "刀模商城",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "groupon-box": "/pages/index/child/grouponBox",
+    "notice": "/pages/index/child/notice"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "coupon-detail": "/pages/user/child/couponDetail",
+    "empty": "/components/empty"
+  }
+}

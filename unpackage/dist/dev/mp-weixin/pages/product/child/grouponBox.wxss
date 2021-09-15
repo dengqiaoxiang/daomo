@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.groupon-box {
+  font-size: 28rpx;
+  background: #fff;
+  margin: 20rpx 0;
+  padding: 20rpx 30rpx;
+}
+.groupon-box .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.groupon-box .title .more {
+  font-size: 28rpx;
+  color: #303133;
+}
+.groupon-box .list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.groupon-box .list .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 4rpx 0;
+  width: 100%;
+}
+.groupon-box .list .item .user-info-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.groupon-box .list .item .user-info-box .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.groupon-box .list .item .group-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.groupon-box .list .item .group-info .info-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.groupon-box .list .item .group-info .info-op {
+  margin-left: 20rpx;
+}
+.groupon-box .list .item .btn {
+  padding: 10rpx 15rpx;
+}
+.groupon-box .list .item .btn-warn {
+  background: #fa436a;
+  border-radius: 10rpx;
+  color: #fff;
+}
+

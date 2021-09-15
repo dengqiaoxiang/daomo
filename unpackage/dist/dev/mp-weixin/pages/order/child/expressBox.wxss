@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.list .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-left: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+  color: #888;
+  -webkit-box-align: start !important;
+  -webkit-align-items: flex-start !important;
+          align-items: flex-start !important;
+}
+.list .item .ic {
+  display: block;
+  position: absolute;
+  left: -16rpx;
+  top: 6rpx;
+  width: 16px;
+  height: 16px;
+  background-color: #dcdcdc;
+  border-radius: 38rpx;
+}
+.list .item .ic .i {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.list .item:first-child {
+  color: #00bb42;
+}
+.list .item:first-child .ic {
+  background-color: #b0ffd4;
+}
+.list .item:first-child .i {
+  background-color: #00aa2c;
+}
+.list .item text:first-child {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.e_info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 16rpx;
+  color: #333;
+}
+.e_info .e_code {
+  margin-left: 10rpx;
+}
+.loading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 20rpx 0;
+  color: #888;
+}
+.error {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 20rpx 0;
+  color: #555;
+}
+

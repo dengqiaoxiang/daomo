@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.container {
+  font-size: 28rpx;
+  width: calc(80vw - 60rpx);
+}
+.t-popup .uni-popup {
+  color: red;
+}
+.t-popup .uni-popup__wrapper-box {
+  border-radius: 20rpx;
+}
+.t-popup .uni-popup__wrapper-box {
+  border-radius: 20rpx;
+}
+
